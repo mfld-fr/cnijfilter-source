@@ -1,1 +1,40 @@
-Canon Inkjet CUPS filters
+
+How to build rpm:
+=================
+    * When you build one printer driver package.
+    --------------------------------------------
+    $ rpmbuild -tb cnijfilter-source-X.XX-Y.tar.gz --define="MODEL [Printer Model Name]" --define="MODEL_NUM [Printer Model ID]" --with build_common_package	
+
+
+    * When you build plural printer driver packages.
+    ------------------------------------------------
+	step 1)
+    $ rpmbuild -tc cnijfilter-source-X.XX-Y.tar.gz --with prepare_fastbuild
+	step 2)
+    $ rpmbuild -tb cnijfilter-source-X.XX-Y.tar.gz --with fastbuild --define="MODEL [Printer Model Name]" --define="MODEL_NUM [Printer Model ID]" --with build_common_package	
+	step 3) and after step 3)
+    $ rpmbuild -tb cnijfilter-source-X.XX-Y.tar.gz --with fastbuild --define="MODEL [Printer Model Name]" --define="MODEL_NUM [Printer Model ID]"
+
+    You can set the following [Printer Model Name]/[Printer Model ID].
+        [Printer Model Name]        [Printer Model ID]
+    ------------------------------------------------------------------
+         mx720                       416
+         mx920                       417
+         mx390                       418
+         mx450                       419
+         mx520                       420
+         e610                        421
+
+
+Example:
+========
+    * Example for build MX720 package:
+	----------------------------------
+    $ rpmbuild -tb cnijfilter-source-X.XX-Y.tar.gz --define="MODEL mx720" --define="MODEL_NUM 416" --with build_common_package	
+
+    * Example for build MX720/MX920/MX390 packages:
+	-----------------------------------------------
+    $ rpmbuild -tc cnijfilter-source-X.XX-Y.tar.gz --with prepare_fastbuild
+    $ rpmbuild -tb cnijfilter-source-X.XX-Y.tar.gz --with fastbuild --define="MODEL mx720" --define="MODEL_NUM 416" --with build_common_package	
+    $ rpmbuild -tb cnijfilter-source-X.XX-Y.tar.gz --with fastbuild --define="MODEL mx920" --define="MODEL_NUM 417"	
+    $ rpmbuild -tb cnijfilter-source-X.XX-Y.tar.gz --with fastbuild --define="MODEL mx390" --define="MODEL_NUM 418"	

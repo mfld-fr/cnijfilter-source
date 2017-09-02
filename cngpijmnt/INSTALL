@@ -1,0 +1,26 @@
+To build and install cngpijmnt:
+
+  1) Building misc libraries.
+        cd ../libs
+        ./autogen.sh
+        make
+        cd ../cngpijmnt
+
+
+  2) Building "cngpijmnt".
+        ./autogen.sh
+        make
+        make install
+
+     Appendix:
+        * You can also set the following options.
+           --prefix
+
+           --enable-progpath
+                maintenance(ex.maintenancemx720)
+
+     Example:
+           ./autogen.sh --prefix=/usr/local --enable-progpath=/usr/local/bin
+           make
+           make install
+
