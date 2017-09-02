@@ -18,9 +18,11 @@
  */
 
 /*** Includes ***/
+#define _IPP_PRIVATE_STRUCTURES 1
 #include <cups/cups.h>
 #include <cups/ppd.h>
 #include <cups/language.h>
+#include <cups/ppd.h>
 #include <sys/types.h>
 #include <unistd.h>
 #include <pwd.h>
