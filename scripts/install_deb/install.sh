@@ -3,7 +3,7 @@
 ##############################################################################
 ##
 ##  Canon Inkjet Printer Driver for Linux
-##  Copyright CANON INC. 2001-2012
+##  Copyright CANON INC. 2001-2013
 ##  All Rights Reserved.
 ##
 ##  This program is free software; you can redistribute it and/or modify
@@ -21,8 +21,8 @@
 ##
 ##############################################################################
 
-C_version="3.80-1"
-C_copyright_end="2012"
+C_version="3.80-2"
+C_copyright_end="2013"
 C_default_system="deb"
 
 L_INST_COM_01_01="Command executed = %s\n"
@@ -1031,14 +1031,10 @@ P_FUNC_MAIN_make_queue()
 	fi
 
 	####################################
-	### Restart cupsd.
+	### Add the entry name to the "entry_list" file.(not to add if the entry is overwrited)
 	####################################
-#	$P_cupsd_command_current restart 1> /dev/null		#show error message only
-	$P_cupsd_command_current 1> /dev/null		#show error message only
-	if [ $? -ne 0 ]; then
-		printf "$L_INST_PRN_01_27"
-		exit		#quit immediately
-	fi
+	p_FUNC_write_entrydata_to_file "$P_entry_list_fullname" $p_local_ENTRYNAME
+	
 
 	####################################
 	### Set the registered entry as default printer.
@@ -1060,6 +1056,16 @@ P_FUNC_MAIN_make_queue()
 	fi
 
 	####################################
+	### Restart cupsd.
+	####################################
+#	$P_cupsd_command_current restart 1> /dev/null		#show error message only
+	$P_cupsd_command_current 1> /dev/null		#show error message only
+	if [ $? -ne 0 ]; then
+		printf "$L_INST_PRN_01_27"
+		exit		#quit immediately
+	fi
+
+	####################################
 	### Finish (Show registration information)
 	####################################
 	printf "\n"
@@ -1070,11 +1076,6 @@ P_FUNC_MAIN_make_queue()
 	printf "#=========================================================#\n"
 	printf ""
 
-	####################################
-	### Add the entry name to the "entry_list" file.(not to add if the entry is overwrited)
-	####################################
-	p_FUNC_write_entrydata_to_file "$P_entry_list_fullname" $p_local_ENTRYNAME
-	
 	return 0
 	
 }
@@ -1276,9 +1277,9 @@ C_FUNC_version_comp()
 	c_ver2=`echo ${c_tmpstr%%.*}``echo ${c_tmpstr##*.}`
 
 	# ex. 310 > 300  #
-	if [ $c_ver1 -gt $c_ver2 ]; then
+	if [ "$c_ver1" -gt "$c_ver2" ]; then
 		return $C_big
-	elif [ $c_ver1 -lt $c_ver2 ]; then
+	elif [ "$c_ver1" -lt "$c_ver2" ]; then
 		return $C_small
 	fi
 	
@@ -1292,17 +1293,17 @@ C_FUNC_version_comp()
 	c_reln2=`echo ${c_tmpstr##*[a-z]}`
 
 	# ex. [a][13] < [][2] #
-	if [ -z $c_rela1 ] && [ -n $c_rela2 ]; then
+	if [ -z "$c_rela1" ] && [ -n "$c_rela2" ]; then
 		return $C_big
-	elif [ -n $c_rela1 ] && [ -z $c_rela2 ]; then
+	elif [ -n "$c_rela1" ] && [ -z "$c_rela2" ]; then
 		return $C_small
 	fi
 	
 	# ex. [a][2] < [b][1] #
-	if [ -n $c_rela1 ] && [ $c_rela1 != $c_rela2 ]; then
+	if [ -n "$c_rela1" ] && [ "$c_rela1" != "$c_rela2" ]; then
 		list=`C_FUNC_makelist $c_rela1 $c_rela2 | sort`
 		for c_tmpstr in $list; do
-			if [ $c_tmpstr = $c_rela1 ]; then
+			if [ "$c_tmpstr" = "$c_rela1" ]; then
 				return $C_small
 			else
 				return $C_big
@@ -1311,9 +1312,9 @@ C_FUNC_version_comp()
 	fi
 	
 	# ex. [a][2] > [a][1], [b][9] < [b][10] #
-	if [ $c_reln1 -gt $c_reln2 ]; then
+	if [ "$c_reln1" -gt "$c_reln2" ]; then
 		return $C_big
-	elif [ $c_reln1 -lt $c_reln2 ];then
+	elif [ "$c_reln1" -lt "$c_reln2" ];then
 		return $C_small
 	else
 		return $C_equal

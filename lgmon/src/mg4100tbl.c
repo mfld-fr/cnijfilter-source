@@ -1,5 +1,5 @@
 /*  Canon Inkjet Printer Driver for Linux
- *  Copyright CANON INC. 2001-2012
+ *  Copyright CANON INC. 2001-2013
  *  All Rights Reserved.
  *
  *  This program is free software; you can redistribute it and/or modify
@@ -143,6 +143,7 @@ ST_BSCC2STS mg4100_lvr2posit[]={
  * Destination information.
  */
 ST_BSCC2STS mg4100_hri2destination[]={
+  {"14","H"}, /* must be 10 > 1 */
   {"10","G"}, /* must be 10 > 1 */
   {"0","0"},
   {"1","1"},

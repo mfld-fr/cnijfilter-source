@@ -1,12 +1,12 @@
 # Inkjet Printer Driver for Linux
-# Copyright CANON INC. 2001-2012
+# Copyright CANON INC. 2001-2013
 # All Rights Reserved.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: cngpijmon 3.80\n"
-"POT-Creation-Date: 2012-05-08 10:55+0900\n"
-"PO-Revision-Date: 2012-07-03 10:42+0900\n"
+"POT-Creation-Date: 2012-12-05 16:18+0900\n"
+"PO-Revision-Date: 2012-12-06 09:05+0900\n"
 "Last-Translator: CANON INC.\n"
 "Language-Team: CANON INC.\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgstr ""
 
 #. ID_STS_MESSAGE_ERROR_COMMON_NUMBER
 #. ID_STS_MESSAGE_SC_SERVICE_ERROR_09COMMON_NUMBER
-#: src/bjcupsmon_ui.c:47 src/bjcupsmon_ui.c:627
+#: src/bjcupsmon_ui.c:47 src/bjcupsmon_ui.c:631
 #, c-format
 msgid ""
 "Support Code : %s\n"
@@ -358,7 +358,7 @@ msgstr "Skriver ut.\n"
 
 #. ID_STS_MESSAGE_BUSY_PRINTER_USED
 #. ID_OTHER_MESSAGE_OTHEROPERATION
-#: src/bjcupsmon_ui.c:123 src/bjcupsmon_ui.c:835
+#: src/bjcupsmon_ui.c:123 src/bjcupsmon_ui.c:839
 msgid "The printer is performing another operation.\n"
 msgstr "Skriveren utfører en annen operasjon.\n"
 
@@ -1267,7 +1267,7 @@ msgstr "Venter på at forrige side skal tørke.\n"
 
 #. ID_STS_MESSAGE_BUSY_PRINTER
 #. ID_OTHER_MESSAGE_BUSY
-#: src/bjcupsmon_ui.c:351 src/bjcupsmon_ui.c:831
+#: src/bjcupsmon_ui.c:351 src/bjcupsmon_ui.c:835
 msgid "Printer is busy.\n"
 msgstr "Skriveren er opptatt.\n"
 
@@ -1792,123 +1792,133 @@ msgstr " Farge <CL-841>\n"
 msgid " Color <CL-93>\n"
 msgstr " Farge <CL-93>\n"
 
-#. ID_STS_MESSAGE_INK_COLOR98
+#. ID_STS_MESSAGE_INK_COLOR94
 #: src/bjcupsmon_ui.c:555
+msgid " Color <CL-94>\n"
+msgstr " Farge <CL-94>\n"
+
+#. ID_STS_MESSAGE_INK_COLOR98
+#: src/bjcupsmon_ui.c:557
 msgid " Color <CL-98>\n"
 msgstr " Farge <CL-98>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK140XXL
-#: src/bjcupsmon_ui.c:557
+#: src/bjcupsmon_ui.c:559
 msgid " Black <PG-140XXL>\n"
 msgstr " Svart <PG-140XXL>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK140XL
-#: src/bjcupsmon_ui.c:559
+#: src/bjcupsmon_ui.c:561
 msgid " Black <PG-140XL>\n"
 msgstr " Svart <PG-140XL>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK140
-#: src/bjcupsmon_ui.c:561
+#: src/bjcupsmon_ui.c:563
 msgid " Black <PG-140>\n"
 msgstr " Svart <PG-140>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK240XXL
-#: src/bjcupsmon_ui.c:563
+#: src/bjcupsmon_ui.c:565
 msgid " Black <PG-240XXL>\n"
 msgstr " Svart <PG-240XXL>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK240XL
-#: src/bjcupsmon_ui.c:565
+#: src/bjcupsmon_ui.c:567
 msgid " Black <PG-240XL>\n"
 msgstr " Svart <PG-240XL>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK240
-#: src/bjcupsmon_ui.c:567
+#: src/bjcupsmon_ui.c:569
 msgid " Black <PG-240>\n"
 msgstr " Svart <PG-240>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK340XL
-#: src/bjcupsmon_ui.c:569
+#: src/bjcupsmon_ui.c:571
 msgid " Black <BC-340XL>\n"
 msgstr " Svart <BC-340XL>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK340
-#: src/bjcupsmon_ui.c:571
+#: src/bjcupsmon_ui.c:573
 msgid " Black <BC-340>\n"
 msgstr " Svart <BC-340>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK440XL
-#: src/bjcupsmon_ui.c:573
+#: src/bjcupsmon_ui.c:575
 msgid " Black <PG-440XL>\n"
 msgstr " Svart <PG-440XL>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK440
-#: src/bjcupsmon_ui.c:575
+#: src/bjcupsmon_ui.c:577
 msgid " Black <PG-440>\n"
 msgstr " Svart <PG-440>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK540XL
-#: src/bjcupsmon_ui.c:577
+#: src/bjcupsmon_ui.c:579
 msgid " Black <PG-540XL>\n"
 msgstr " Svart <PG-540XL>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK540
-#: src/bjcupsmon_ui.c:579
+#: src/bjcupsmon_ui.c:581
 msgid " Black <PG-540>\n"
 msgstr " Svart <PG-540>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK640XXL
-#: src/bjcupsmon_ui.c:581
+#: src/bjcupsmon_ui.c:583
 msgid " Black <PG-640XXL>\n"
 msgstr " Svart <PG-640XXL>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK640XL
-#: src/bjcupsmon_ui.c:583
+#: src/bjcupsmon_ui.c:585
 msgid " Black <PG-640XL>\n"
 msgstr " Svart <PG-640XL>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK640
-#: src/bjcupsmon_ui.c:585
+#: src/bjcupsmon_ui.c:587
 msgid " Black <PG-640>\n"
 msgstr " Svart <PG-640>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK740XL
-#: src/bjcupsmon_ui.c:587
+#: src/bjcupsmon_ui.c:589
 msgid " Black <PG-740XL>\n"
 msgstr " Svart <PG-740XL>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK740
-#: src/bjcupsmon_ui.c:589
+#: src/bjcupsmon_ui.c:591
 msgid " Black <PG-740>\n"
 msgstr " Svart <PG-740>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK840XL
-#: src/bjcupsmon_ui.c:591
+#: src/bjcupsmon_ui.c:593
 msgid " Black <PG-840XL>\n"
 msgstr " Svart <PG-840XL>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK840
-#: src/bjcupsmon_ui.c:593
+#: src/bjcupsmon_ui.c:595
 msgid " Black <PG-840>\n"
 msgstr " Svart <PG-840>\n"
 
 #. ID_STS_MESSAGE_INK_BLACK83
-#: src/bjcupsmon_ui.c:595
+#: src/bjcupsmon_ui.c:597
 msgid " Black <PG-83>\n"
 msgstr " Svart <PG-83>\n"
 
+#. ID_STS_MESSAGE_INK_BLACK84
+#: src/bjcupsmon_ui.c:599
+msgid " Black <PG-84>\n"
+msgstr " Svart <PG-84>\n"
+
 #. ID_STS_MESSAGE_INK_BLACK88
-#: src/bjcupsmon_ui.c:597
+#: src/bjcupsmon_ui.c:601
 msgid " Black <PG-88>\n"
 msgstr " Svart <PG-88>\n"
 
 #. ID_STS_MESSAGE_PREPARE
-#: src/bjcupsmon_ui.c:599
+#: src/bjcupsmon_ui.c:603
 msgid "Preparing...\n"
 msgstr "Klargjør...\n"
 
 #. ID_STS_MESSAGE_OC_PAPER_JAM04_2nd_NOT_ONTOSIDE
-#: src/bjcupsmon_ui.c:601
+#: src/bjcupsmon_ui.c:605
 msgid ""
 "Detach the rear cover, and then remove the jammed paper.\n"
 "If the jammed paper cannot be found inside the rear cover, refer to the "
@@ -1918,7 +1928,7 @@ msgstr ""
 "Hvis du ikke ser det fastkjørte papiret når du åpner bakdekselet, finner du informasjon om hvordan du fjerner papiret i brukerhåndboken.\n"
 
 #. ID_STS_MESSAGE_OC_PAPER_JAM05_2nd_NOT_ONTOSIDE
-#: src/bjcupsmon_ui.c:603
+#: src/bjcupsmon_ui.c:607
 msgid ""
 "Raise the paper support, detach the rear cover, and then remove the jammed "
 "paper.\n"
@@ -1929,35 +1939,35 @@ msgstr ""
 "Hvis du ikke ser det fastkjørte papiret når du åpner bakdekselet, finner du informasjon om hvordan du fjerner papiret i brukerhåndboken.\n"
 
 #. ID_STS_MESSAGE_COVERCLOSE_SLOWY
-#: src/bjcupsmon_ui.c:605
+#: src/bjcupsmon_ui.c:609
 msgid "When closing the cover, lift it up first and then close it slowly.\n"
 msgstr "Når du lukker dekselet, løfter du det først opp og lukker det deretter langsomt.\n"
 
 #. ID_STS_MESSAGE_OC_MEDIA
-#: src/bjcupsmon_ui.c:607
+#: src/bjcupsmon_ui.c:611
 msgid "Media Type : "
 msgstr "Medietype : "
 
 #. ID_STS_MESSAGE_OC_PLAINPAPER
-#: src/bjcupsmon_ui.c:609
+#: src/bjcupsmon_ui.c:613
 msgid "Plain Paper\n"
 msgstr "Vanlig papir\n"
 
 #. ID_STS_MESSAGE_OC_DETAILS
-#: src/bjcupsmon_ui.c:611
+#: src/bjcupsmon_ui.c:615
 msgid ""
 "Paper that can be fed from the cassette is plain paper of A4, Letter, B5, "
 "and A5 sizes.\n"
 msgstr "Vanlig papir i størrelsene A4, Letter, B5 og A5 kan mates fra kassetten.\n"
 
 #. ID_STS_MESSAGE_JOB_JOBCANCEL_STOP
-#: src/bjcupsmon_ui.c:613
+#: src/bjcupsmon_ui.c:617
 msgid ""
 "Print job has been canceled by the printer's Stop button being pressed.\n"
 msgstr "Utskriftsjobben ble avbrutt ved hjelp av Stopp (Stop)-knappen på skriveren.\n"
 
 #. ID_STS_MESSAGE_OC_INKEMPTY06_TANK_3rd_MFP_STOP
-#: src/bjcupsmon_ui.c:615
+#: src/bjcupsmon_ui.c:619
 msgid ""
 "\n"
 "Replace the ink tank. Printing under the current condition may damage the "
@@ -1978,7 +1988,7 @@ msgstr ""
 "\n"
 
 #. ID_STS_MESSAGE_OC_PAPER_JAM03_02SFP_2nd
-#: src/bjcupsmon_ui.c:617
+#: src/bjcupsmon_ui.c:621
 msgid ""
 "Detach the rear cover, and then remove the jammed paper. If the jammed paper "
 "cannot be removed, first remove the cassette and remove the paper from the "
@@ -1986,7 +1996,7 @@ msgid ""
 msgstr "Ta av bakdekselet, og fjern deretter det fastkjørte papiret. Hvis du ikke får fjernet det fastkjørte papiret, må du først ta ut kassetten, og deretter fjerne papiret fra kassettsiden.\n"
 
 #. ID_STS_MESSAGE_OC_PAPER_JAM03_02MFP_2nd
-#: src/bjcupsmon_ui.c:619
+#: src/bjcupsmon_ui.c:623
 msgid ""
 "Raise the paper support, detach the rear cover, and then remove the jammed "
 "paper. If the jammed paper cannot be removed, first remove the cassette and "
@@ -1994,12 +2004,12 @@ msgid ""
 msgstr "Hev papirstøtten, ta av bakdekselet og fjern deretter det fastkjørte papiret. Hvis du ikke får fjernet det fastkjørte papiret, må du først ta ut kassetten, og deretter fjerne papiret fra kassettsiden.\n"
 
 #. ID_STS_MESSAGE_OC_LCDPANEL
-#: src/bjcupsmon_ui.c:621
+#: src/bjcupsmon_ui.c:625
 msgid "An error has occurred. Check the display on the printer.\n"
 msgstr "Det har oppstått en feil. Se skjermen på skriveren.\n"
 
 #. ID_STS_MESSAGE_OC_INKTANK_NOTPROPERLY_LOCKLEVER_PUSH
-#: src/bjcupsmon_ui.c:623
+#: src/bjcupsmon_ui.c:627
 msgid ""
 "An ink cartridge is not installed properly.\n"
 "Open the printer's cover, firmly push down the ink cartridge locking cover, "
@@ -2010,7 +2020,7 @@ msgstr ""
 "Åpne skriverdekselet, press ned lokket på blekkassetten og installer den på riktig måte. Lukk skriverdekselet.\n"
 
 #. ID_STS_MESSAGE_OTHER_USE
-#: src/bjcupsmon_ui.c:625
+#: src/bjcupsmon_ui.c:629
 msgid ""
 "Another computer is using the printer.\n"
 "The following status is the usage status of that computer.\n"
@@ -2021,7 +2031,7 @@ msgstr ""
 "---\n"
 
 #. ID_STS_MESSAGE_SC_SERVICE_ERROR_09COMMON
-#: src/bjcupsmon_ui.c:629
+#: src/bjcupsmon_ui.c:633
 msgid ""
 "A printer error has occurred.\n"
 "Turn the printer off and then on again.\n"
@@ -2033,7 +2043,7 @@ msgstr ""
 "Hvis dette ikke retter feilen, må skriveren repareres. Se brukerhåndboken og kontakt servicesenteret.\n"
 
 #. ID_STS_MESSAGE_SC_SERVICE_ERROR_09VHMONITOR
-#: src/bjcupsmon_ui.c:631
+#: src/bjcupsmon_ui.c:635
 msgid ""
 "An error has occurred. The printer needs repair.\n"
 "Turn the printer off and unplug the power cord of the printer from the power "
@@ -2045,7 +2055,7 @@ msgstr ""
 "Se deretter brukerhåndboken og kontakt servicesenteret.\n"
 
 #. ID_STS_MESSAGE_SC_USEDTANK_FULL_09
-#: src/bjcupsmon_ui.c:633
+#: src/bjcupsmon_ui.c:637
 msgid ""
 "Printer error has occurred.\n"
 "Contact the service center.\n"
@@ -2054,7 +2064,7 @@ msgstr ""
 "Kontakt servicesenteret.\n"
 
 #. ID_STS_MESSAGE_SC_USEDTANK_FULLJP_09
-#: src/bjcupsmon_ui.c:635
+#: src/bjcupsmon_ui.c:639
 msgid ""
 "The ink absorber is full.\n"
 "It needs to be replaced.\n"
@@ -2067,7 +2077,7 @@ msgstr ""
 "Blekkbeholderen kan bare byttes av en kvalifisert tekniker.\n"
 
 #. ID_STS_MESSAGE_OC_USEDTANK_ALMOST_OK2
-#: src/bjcupsmon_ui.c:637
+#: src/bjcupsmon_ui.c:641
 msgid ""
 "The ink absorber is almost full.\n"
 "Press the printer's OK button to continue printing.\n"
@@ -2078,7 +2088,7 @@ msgstr ""
 "Kontakt servicesenteret. \n"
 
 #. ID_STS_MESSAGE_OC_USEDTANK_ALMOSTJP_OK2
-#: src/bjcupsmon_ui.c:639
+#: src/bjcupsmon_ui.c:643
 msgid ""
 "The ink absorber is almost full.\n"
 "Press the printer's OK button to continue printing.\n"
@@ -2093,7 +2103,7 @@ msgstr ""
 "Blekkbeholderen kan bare byttes av en kvalifisert tekniker.\n"
 
 #. ID_STS_MESSAGE_OC_INKOUT06_FAX
-#: src/bjcupsmon_ui.c:641
+#: src/bjcupsmon_ui.c:645
 msgid ""
 "\n"
 "Since the information contained in the fax may be lost if it is printed in "
@@ -2109,7 +2119,7 @@ msgstr ""
 "Du kan endre innstillingen slik at den mottatte telefaksen skrives ut likevel i stedet for å bli lagret i minnet, men det kan hende at hele eller deler av faksinformasjonen ikke blir skrevet ut fordi det er tomt for blekk.\n"
 
 #. ID_STS_MESSAGE_BUSY_HEADPROTECT
-#: src/bjcupsmon_ui.c:643
+#: src/bjcupsmon_ui.c:647
 msgid ""
 "The ink cannot be replaced because the print head is in a standby "
 "condition.\n"
@@ -2119,7 +2129,7 @@ msgstr ""
 "Lukk dekslet, vent en liten stund, og bytt deretter blekket.\n"
 
 #. ID_STS_MESSAGE_OC_REMAIN_UNKNOWN2_3rd_OK_07SPRING
-#: src/bjcupsmon_ui.c:645
+#: src/bjcupsmon_ui.c:649
 msgid ""
 "\n"
 "The function for detecting the remaining ink level will be disabled since "
@@ -2138,7 +2148,7 @@ msgstr ""
 "Canon er ikke ansvarlig for skade eller feil som skyldes fortsettelse av utskrift når det er tomt for blekk.\n"
 
 #. ID_STS_MESSAGE_OC_INKEMPTY06_TANK_3rd_CARTRIDGE_STOP
-#: src/bjcupsmon_ui.c:647
+#: src/bjcupsmon_ui.c:651
 msgid ""
 "\n"
 "Replace the ink cartridge and close the cover.\n"
@@ -2159,24 +2169,24 @@ msgstr ""
 
 #. ID_STS_MESSAGE_OC_SMARTTRAY_CLOSE1
 #. ID_STS_MESSAGE_OC_EJECTCOVERCLOSE12
-#: src/bjcupsmon_ui.c:649 src/bjcupsmon_ui.c:813
+#: src/bjcupsmon_ui.c:653 src/bjcupsmon_ui.c:817
 msgid ""
 "Document printing cannot be executed because the paper output tray is "
 "closed.\n"
 msgstr "Dokumentutskriften kan ikke utføres fordi papirutdataskuffen er lukket.\n"
 
 #. ID_STS_MESSAGE_OC_SMARTTRAY_CLOSE2
-#: src/bjcupsmon_ui.c:651
+#: src/bjcupsmon_ui.c:655
 msgid "Open the paper output tray.\n"
 msgstr "Åpne papirutdataskuffen.\n"
 
 #. ID_STS_MESSAGE_JOB_JOBCANCEL_NOKEY
-#: src/bjcupsmon_ui.c:653
+#: src/bjcupsmon_ui.c:657
 msgid "Print job has been canceled by the operation of the printer.\n"
 msgstr "Utskriftsjobben er avbrutt på grunn av driften av skriveren.\n"
 
 #. ID_STS_MESSAGE_OC_USEDTANK_ALMOST_START2
-#: src/bjcupsmon_ui.c:655
+#: src/bjcupsmon_ui.c:659
 msgid ""
 "The ink absorber is almost full.\n"
 "Press the printer's Start button to continue printing.\n"
@@ -2187,7 +2197,7 @@ msgstr ""
 "Kontakt servicesenteret. \n"
 
 #. ID_STS_MESSAGE_OC_USEDTANK_ALMOSTJP_START2
-#: src/bjcupsmon_ui.c:657
+#: src/bjcupsmon_ui.c:661
 msgid ""
 "The ink absorber is almost full.\n"
 "Press the printer's Start button to continue printing.\n"
@@ -2202,7 +2212,7 @@ msgstr ""
 "Blekkbeholderen kan bare byttes av en kvalifisert tekniker.\n"
 
 #. ID_STS_MESSAGE_OC_USEDTANK_ALMOST_RESUME2
-#: src/bjcupsmon_ui.c:659
+#: src/bjcupsmon_ui.c:663
 msgid ""
 "The ink absorber is almost full.\n"
 "Press the printer's RESUME button to continue printing.\n"
@@ -2213,7 +2223,7 @@ msgstr ""
 "Kontakt servicesenteret. \n"
 
 #. ID_STS_MESSAGE_OC_USEDTANK_ALMOSTJP_RESUME2
-#: src/bjcupsmon_ui.c:661
+#: src/bjcupsmon_ui.c:665
 msgid ""
 "The ink absorber is almost full.\n"
 "Press the printer's RESUME button to continue printing.\n"
@@ -2228,37 +2238,37 @@ msgstr ""
 "Blekkbeholderen kan bare byttes av en kvalifisert tekniker.\n"
 
 #. ID_STS_MESSAGE_OC_CDR_GUIDE3
-#: src/bjcupsmon_ui.c:663
+#: src/bjcupsmon_ui.c:667
 msgid "Printing cannot be executed because the inner cover is open. \n"
 msgstr "Kan ikke skrive ut fordi innvendig deksel er åpent. \n"
 
 #. ID_STS_MESSAGE_CDR_GUIDE_PRINT3
-#: src/bjcupsmon_ui.c:665
+#: src/bjcupsmon_ui.c:669
 msgid "During printing, the inner cover of the printer was opened. \n"
 msgstr "Det innvendige dekselet ble åpnet under utskriften. \n"
 
 #. ID_STS_MESSAGE_CDR_GUIDE_PRINT2_2nd
-#: src/bjcupsmon_ui.c:667
+#: src/bjcupsmon_ui.c:671
 msgid "Close the inner cover. \n"
 msgstr "Lukk det innvendige dekselet. \n"
 
 #. ID_STS_MESSAGE_PAPERTHICKNESS_LEVERPOSITION
-#: src/bjcupsmon_ui.c:669 src/bjcupsmon_ui.c:1164
+#: src/bjcupsmon_ui.c:673 src/bjcupsmon_ui.c:1168
 msgid "Paper Thickness Lever Position: "
 msgstr "Posisjon for papirtykkelsesspak: "
 
 #. ID_STS_MESSAGE_LEFT
-#: src/bjcupsmon_ui.c:671 src/bjcupsmon_ui.c:1183
+#: src/bjcupsmon_ui.c:675 src/bjcupsmon_ui.c:1187
 msgid "Left"
 msgstr "Venstre"
 
 #. ID_STS_MESSAGE_RIGHT
-#: src/bjcupsmon_ui.c:673 src/bjcupsmon_ui.c:1188
+#: src/bjcupsmon_ui.c:677 src/bjcupsmon_ui.c:1192
 msgid "Right"
 msgstr "Høyre"
 
 #. ID_STS_MESSAGE_OC_DUPLEX_STOPPAGE_RESUME
-#: src/bjcupsmon_ui.c:675
+#: src/bjcupsmon_ui.c:679
 msgid ""
 "Automatic duplex printing cannot be continued because the size of the paper "
 "loaded in the printer is not supported by the automatic duplex printing "
@@ -2269,7 +2279,7 @@ msgid ""
 msgstr "Automatisk dupleksutskrift kan ikke fortsettes, fordi størrelsen på papiret som ligger i skriveren, ikke støttes av funksjonen for automatisk dupleksutskrift, eller fordi det er angitt en papirstørrelse som ikke tillater automatisk dupleksutskrift. Legg papir med riktig størrelse i skriveren, kontroller innstillingen for papirstørrelse og trykk på FORTSETT (RESUME). Utskriften fortsetter fra det neste arket.\n"
 
 #. ID_STS_MESSAGE_OC_DUPLEX_STOPPAGE_OK
-#: src/bjcupsmon_ui.c:677
+#: src/bjcupsmon_ui.c:681
 msgid ""
 "Automatic duplex printing cannot be continued because the size of the paper "
 "loaded in the printer is not supported by the automatic duplex printing "
@@ -2280,7 +2290,7 @@ msgid ""
 msgstr "Automatisk dupleksutskrift kan ikke fortsettes, fordi størrelsen på papiret som ligger i skriveren, ikke støttes av funksjonen for automatisk dupleksutskrift, eller fordi det er angitt en papirstørrelse som ikke tillater automatisk dupleksutskrift. Legg papir med riktig størrelse i skriveren, kontroller innstillingen for papirstørrelse og trykk på OK. Utskriften fortsetter fra det neste arket.\n"
 
 #. ID_STS_MESSAGE_OC_OLDINK
-#: src/bjcupsmon_ui.c:679
+#: src/bjcupsmon_ui.c:683
 msgid ""
 "Appropriate ink tank is not installed.\n"
 "Make sure the following ink tank is installed properly.\n"
@@ -2289,7 +2299,7 @@ msgstr ""
 "Kontroller at følgende blekktank er satt inn riktig.\n"
 
 #. ID_STS_MESSAGE_OC_OLDINK02
-#: src/bjcupsmon_ui.c:681
+#: src/bjcupsmon_ui.c:685
 msgid ""
 "\n"
 "Printing cannot be executed because the ink tank is not compatible with this "
@@ -2303,28 +2313,28 @@ msgstr ""
 "Sett inn korrekt blekktank.\n"
 
 #. ID_STS_MESSAGE_OC_CDR_GUIDE4
-#: src/bjcupsmon_ui.c:683
+#: src/bjcupsmon_ui.c:687
 msgid "Printer cannot be ready because its inner cover is open. \n"
 msgstr "Skriveren kan ikke bli klar, fordi det innvendige dekselet er åpent. \n"
 
 #. ID_STS_MESSAGE_OC_CDR_GUIDE3_3rd
-#: src/bjcupsmon_ui.c:685
+#: src/bjcupsmon_ui.c:689
 msgid "Touch the printer's OK button. Printing will restart.\n"
 msgstr "Berør OK på skriveren. Utskriften starter på nytt.\n"
 
 #. ID_STS_MESSAGE_OC_CDR_GUIDE5
-#: src/bjcupsmon_ui.c:687
+#: src/bjcupsmon_ui.c:691
 msgid ""
 "Printer cannot be ready for printing because its inner cover is open. \n"
 msgstr "Skriveren kan ikke bli klar for utskrift, fordi det innvendige dekselet er åpent. \n"
 
 #. ID_STS_MESSAGE_SMMSG_TOUCH
-#: src/bjcupsmon_ui.c:689
+#: src/bjcupsmon_ui.c:693
 msgid "Touch the printer's OK button.\n"
 msgstr "Berør OK på skriveren.\n"
 
 #. ID_STS_MESSAGE_OC_INKOUT06_TANK_TOUCH
-#: src/bjcupsmon_ui.c:691
+#: src/bjcupsmon_ui.c:695
 msgid ""
 "\n"
 "Replacing the ink tank is recommended.\n"
@@ -2338,7 +2348,7 @@ msgstr ""
 "Hvis utskrift pågår og du vil fortsette utskriften, berører du OK-knappen på skriveren. Deretter kan utskriften fortsette. Det anbefales at du bytter ut blekktanken etter utskriften. Skriveren kan bli skadet dersom utskriften fortsettes når det er tomt for blekk.\n"
 
 #. ID_STS_MESSAGE_OC_USEDTANK_ALMOST_TOUCH
-#: src/bjcupsmon_ui.c:693
+#: src/bjcupsmon_ui.c:697
 msgid ""
 "The ink absorber is almost full.\n"
 "Touch the printer's OK button to continue printing.\n"
@@ -2349,7 +2359,7 @@ msgstr ""
 "Kontakt servicesenteret.\n"
 
 #. ID_STS_MESSAGE_OC_USEDTANK_ALMOSTJP_TOUCH
-#: src/bjcupsmon_ui.c:695
+#: src/bjcupsmon_ui.c:699
 msgid ""
 "The ink absorber is almost full.\n"
 "Touch the printer's OK button to continue printing.\n"
@@ -2365,12 +2375,12 @@ msgstr ""
 
 #. ID_STS_MESSAGE_CDR_GUIDE_PRINT_3rd_TOUCH
 #. ID_STS_MESSAGE_OC_PAPER_JAM2_3rd_TOUCH
-#: src/bjcupsmon_ui.c:697 src/bjcupsmon_ui.c:747
+#: src/bjcupsmon_ui.c:701 src/bjcupsmon_ui.c:751
 msgid "Touch the printer's OK button. Printing resumes from the next paper.\n"
 msgstr "Berør OK på skriveren. Utskriften fortsetter fra det neste arket.\n"
 
 #. ID_STS_MESSAGE_OC_DUPLEX_STOPPAGE2_TOUCH
-#: src/bjcupsmon_ui.c:699
+#: src/bjcupsmon_ui.c:703
 msgid ""
 "Duplex printing cannot be continued because the size of the paper loaded in "
 "the printer is not supported by the duplex printing function or a paper size "
@@ -2380,7 +2390,7 @@ msgid ""
 msgstr "Dupleksutskrift kan ikke fortsettes, fordi størrelsen på papiret som ligger i skriveren, ikke støttes av funksjonen for dupleksutskrift, eller fordi det er angitt en papirstørrelse som ikke tillater dupleksutskrift. Legg papir med riktig størrelse i skriveren, kontroller innstillingen for papirstørrelse og berør OK.\n"
 
 #. ID_STS_MESSAGE_OC_DUPLEX_STOPPAGE2_OK
-#: src/bjcupsmon_ui.c:701
+#: src/bjcupsmon_ui.c:705
 msgid ""
 "Duplex printing cannot be continued because the size of the paper loaded in "
 "the printer is not supported by the duplex printing function or a paper size "
@@ -2390,7 +2400,7 @@ msgid ""
 msgstr "Dupleksutskrift kan ikke fortsettes, fordi størrelsen på papiret som ligger i skriveren, ikke støttes av funksjonen for dupleksutskrift, eller fordi det er angitt en papirstørrelse som ikke tillater dupleksutskrift. Legg papir med riktig størrelse i skriveren, kontroller innstillingen for papirstørrelse og trykk på OK.\n"
 
 #. ID_STS_MESSAGE_OC_DUPLEX_STOPPAGE2_RESUME
-#: src/bjcupsmon_ui.c:703
+#: src/bjcupsmon_ui.c:707
 msgid ""
 "Duplex printing cannot be continued because the size of the paper loaded in "
 "the printer is not supported by the duplex printing function or a paper size "
@@ -2400,7 +2410,7 @@ msgid ""
 msgstr "Dupleksutskrift kan ikke fortsettes, fordi størrelsen på papiret som ligger i skriveren, ikke støttes av funksjonen for dupleksutskrift, eller fordi det er angitt en papirstørrelse som ikke tillater dupleksutskrift. Legg papir med riktig størrelse i skriveren, kontroller innstillingen for papirstørrelse og trykk på FORTSETT (RESUME).\n"
 
 #. ID_STS_MESSAGE_OC_DUPLEX_STOPPAGE2_START
-#: src/bjcupsmon_ui.c:705
+#: src/bjcupsmon_ui.c:709
 msgid ""
 "Duplex printing cannot be continued because the size of the paper loaded in "
 "the printer is not supported by the duplex printing function or a paper size "
@@ -2410,7 +2420,7 @@ msgid ""
 msgstr "Dupleksutskrift kan ikke fortsettes, fordi størrelsen på papiret som ligger i skriveren, ikke støttes av funksjonen for dupleksutskrift, eller fordi det er angitt en papirstørrelse som ikke tillater dupleksutskrift. Legg papir med riktig størrelse i skriveren, kontroller innstillingen for papirstørrelse og trykk på Start.\n"
 
 #. ID_STS_MESSAGE_OC_HEADALIGNMENT_TOUCH
-#: src/bjcupsmon_ui.c:707
+#: src/bjcupsmon_ui.c:711
 msgid ""
 "An error occurred during automatic print head alignment.\n"
 "\n"
@@ -2431,7 +2441,7 @@ msgstr ""
 "Berør OK på skriveren for å fjerne feilmeldingen.\n"
 
 #. ID_STS_MESSAGE_OC_INKEMPTY06_TANK_3rd_MFP_TOUCH
-#: src/bjcupsmon_ui.c:709
+#: src/bjcupsmon_ui.c:713
 msgid ""
 "\n"
 "Replace the ink tank. Printing under the current condition may damage the "
@@ -2452,7 +2462,7 @@ msgstr ""
 "\n"
 
 #. ID_STS_MESSAGE_SC_SERVICE_CARRIAGEPOSITION_ERROR
-#: src/bjcupsmon_ui.c:711
+#: src/bjcupsmon_ui.c:715
 msgid ""
 "The protective material may still be attached to the holder in the printer.\n"
 "You need to remove this material before using the printer.\n"
@@ -2468,7 +2478,7 @@ msgstr ""
 "Hvis denne meldingen vises igjen, kan du se brukerhåndboken.\n"
 
 #. ID_STS_MESSAGE_OC_PROTECTIVEMATERIAL
-#: src/bjcupsmon_ui.c:713
+#: src/bjcupsmon_ui.c:717
 msgid ""
 "The protective material or tape may still be attached to the holder in the "
 "printer.\n"
@@ -2484,12 +2494,12 @@ msgstr ""
 "Deretter lukker du skriverens papirutmatingsdeksel.\n"
 
 #. ID_STS_MESSAGE_OC_NO_RECOGNIZE_CART2
-#: src/bjcupsmon_ui.c:715
+#: src/bjcupsmon_ui.c:719
 msgid "Appropriate ink cartridge is not installed.\n"
 msgstr "Korrekt blekkassett er ikke installert.\n"
 
 #. ID_STS_MESSAGE_OC_NO_RECOGNIZE_CART2_3rd
-#: src/bjcupsmon_ui.c:717
+#: src/bjcupsmon_ui.c:721
 msgid ""
 "\n"
 "Printing cannot be executed because the ink cartridge is not compatible with "
@@ -2503,7 +2513,7 @@ msgstr ""
 "Sett inn korrekt blekkassett.\n"
 
 #. ID_STS_MESSAGE_OC_PAPER_OUTFR2
-#: src/bjcupsmon_ui.c:719
+#: src/bjcupsmon_ui.c:723
 msgid ""
 "Load paper into the front tray.\n"
 "Insert the paper completely to the end of the front tray.\n"
@@ -2512,7 +2522,7 @@ msgstr ""
 "Legg papiret helt inn til enden av frontskuffen.\n"
 
 #. ID_STS_MESSAGE_OC_HEADCOVER_OPEN
-#: src/bjcupsmon_ui.c:721
+#: src/bjcupsmon_ui.c:725
 msgid ""
 "The paper output cover is open.\n"
 "Close the cover.\n"
@@ -2521,7 +2531,7 @@ msgstr ""
 "Lukk dekselet.\n"
 
 #. ID_STS_MESSAGE_OC_INKTANK_NOTPROPERLY_LOCKLEVER_PUSHUP
-#: src/bjcupsmon_ui.c:723
+#: src/bjcupsmon_ui.c:727
 msgid ""
 "An ink cartridge is not installed properly.\n"
 "Push up the ink cartridge locking lever firmly, and then make sure the ink "
@@ -2531,7 +2541,7 @@ msgstr ""
 "Skyv opp låsehendelen for blekkassetter, og installer blekkassetten på riktig måte. Lukk deretter papirutmatingsdekselet.\n"
 
 #. ID_STS_MESSAGE_OC_PAPER_JAM03_FRONTCOVERCLOSE_IFMEM
-#: src/bjcupsmon_ui.c:725
+#: src/bjcupsmon_ui.c:729
 msgid ""
 "Remove the loaded paper in the front tray and close the front cover.\n"
 "If a memory card is inserted, be sure to remove it.\n"
@@ -2540,7 +2550,7 @@ msgstr ""
 "Hvis det er satt inn et minnekort, må du fjerne det.\n"
 
 #. ID_STS_MESSAGE_OC_PAPER_JAM03_RIGHTSIDEDOWN
-#: src/bjcupsmon_ui.c:727
+#: src/bjcupsmon_ui.c:731
 msgid ""
 "Place the printer upright with the right side down, then open the transport "
 "unit by pressing down the open lever.\n"
@@ -2555,7 +2565,7 @@ msgstr ""
 "Se brukerhåndboken for mer informasjon.\n"
 
 #. ID_STS_MESSAGE_BUSY_CARTRIDGE_CHANGE_FRONT
-#: src/bjcupsmon_ui.c:729
+#: src/bjcupsmon_ui.c:733
 msgid ""
 "The holder is in the ink cartridge replacement position.\n"
 "After replacing the ink cartridge, close the paper output cover.\n"
@@ -2564,7 +2574,7 @@ msgstr ""
 "Lukk papirutmatingsdekselet etter at du har byttet blekkassett.\n"
 
 #. ID_STS_MESSAGE_BUSY_HEADPROTECT_FRONT
-#: src/bjcupsmon_ui.c:731
+#: src/bjcupsmon_ui.c:735
 msgid ""
 "The ink cannot be replaced because the print head is in a standby "
 "condition.\n"
@@ -2574,7 +2584,7 @@ msgstr ""
 "Lukk papirutmatingsdekselet, vent en liten stund, og bytt deretter blekket.\n"
 
 #. ID_STS_MESSAGE_OC_COVER_OPEN_OUTPUTCOVER
-#: src/bjcupsmon_ui.c:733
+#: src/bjcupsmon_ui.c:737
 msgid ""
 "The paper output cover is open.\n"
 "If printing is in progress, the ink cartridges cannot be replaced while "
@@ -2587,12 +2597,12 @@ msgstr ""
 "Lukk papirutmatingsdekselet og vent til utskriften er ferdig. Åpne dekselet på nytt og bytt blekkassettene.\n"
 
 #. ID_STS_MESSAGE_OC_PAPER_JAM03_FRONTCOVERCLOSE
-#: src/bjcupsmon_ui.c:735
+#: src/bjcupsmon_ui.c:739
 msgid "Remove the loaded paper in the front tray and close the front cover.\n"
 msgstr "Fjern papiret som er lagt i frontskuffen, og lukk frontdekselet.\n"
 
 #. ID_STS_MESSAGE_SC_SERVICE_SCANNER_LOCK_ERROR
-#: src/bjcupsmon_ui.c:737
+#: src/bjcupsmon_ui.c:741
 msgid ""
 "Printing cannot be executed because the lock switch is on.\n"
 "Cancel printing, release the lock switch, and turn the printer off and then "
@@ -2602,7 +2612,7 @@ msgstr ""
 "Avbryt utskriften, frigjør låsbryteren og slå skriveren av og deretter på igjen.\n"
 
 #. ID_STS_MESSAGE_OC_DUPLEX_STOPPAGE_TOUCH
-#: src/bjcupsmon_ui.c:739
+#: src/bjcupsmon_ui.c:743
 msgid ""
 "Automatic duplex printing cannot be continued because the size of the paper "
 "loaded in the printer is not supported by the automatic duplex printing "
@@ -2613,7 +2623,7 @@ msgid ""
 msgstr "Automatisk dupleksutskrift kan ikke fortsettes, fordi størrelsen på papiret som ligger i skriveren, ikke støttes av funksjonen for automatisk dupleksutskrift, eller fordi det er angitt en papirstørrelse som ikke tillater automatisk dupleksutskrift. Legg papir med riktig størrelse i skriveren, kontroller innstillingen for papirstørrelse og berør OK på skriveren. Utskriften fortsetter fra det neste arket.\n"
 
 #. ID_STS_MESSAGE_OC_POSITION_MISMACH_CARTRIDGE
-#: src/bjcupsmon_ui.c:741
+#: src/bjcupsmon_ui.c:745
 msgid ""
 "An ink cartridge is not installed in the correct position.\n"
 "Install the following ink cartridge in the appropriate position. If printing "
@@ -2623,12 +2633,12 @@ msgstr ""
 "Installer følgende blekkassett i riktig posisjon. Hvis utskrift pågår, avbryter du utskriften og installerer blekkassetten.\n"
 
 #. ID_STS_MESSAGE_OC_PLURALERROR_CARTRIDGE
-#: src/bjcupsmon_ui.c:743
+#: src/bjcupsmon_ui.c:747
 msgid "More than one ink cartridge of the following type is installed.\n"
 msgstr "Det er satt inn mer enn en blekkassett av følgende type.\n"
 
 #. ID_STS_MESSAGE_OC_PLURALERROR_CARTRIDGE_3rd
-#: src/bjcupsmon_ui.c:745
+#: src/bjcupsmon_ui.c:749
 msgid ""
 "\n"
 "Use only one ink cartridge per type at a time.\n"
@@ -2637,7 +2647,7 @@ msgstr ""
 "Bruk bare én blekkassett per type om gangen.\n"
 
 #. ID_STS_MESSAGE_OC_INKEMPTY06_TANK_3rd_CARTRIDGE_STOPRESET_OUTPUTCOVER
-#: src/bjcupsmon_ui.c:749
+#: src/bjcupsmon_ui.c:753
 msgid ""
 "\n"
 "Replace the ink cartridge and close the paper output cover.\n"
@@ -2657,7 +2667,7 @@ msgstr ""
 "Utskriftskvaliteten blir ikke god hvis du fortsetter å skrive ut når det er tomt for blekk.\n"
 
 #. ID_STS_MESSAGE_OC_INKEMPTY06_TANK_3rd_CARTRIDGE_STOP_OUTPUTCOVER
-#: src/bjcupsmon_ui.c:751
+#: src/bjcupsmon_ui.c:755
 msgid ""
 "\n"
 "Replace the ink cartridge and close the paper output cover.\n"
@@ -2677,14 +2687,14 @@ msgstr ""
 "Utskriftskvaliteten blir ikke god hvis du fortsetter å skrive ut når det er tomt for blekk.\n"
 
 #. ID_STS_MESSAGE_OC_PAPER_JAM03_FRONTCOVERCLOSE2
-#: src/bjcupsmon_ui.c:753
+#: src/bjcupsmon_ui.c:757
 msgid ""
 "Remove the loaded paper in the front tray and close the front cover. Keep "
 "the document cover open.\n"
 msgstr "Fjern papiret som er lagt i frontskuffen, og lukk frontdekselet. Hold dokumentdekselet åpent.\n"
 
 #. ID_STS_MESSAGE_OC_PAPER_JAM03_FRONTCOVERCLOSE_IFMEM2
-#: src/bjcupsmon_ui.c:755
+#: src/bjcupsmon_ui.c:759
 msgid ""
 "Remove the loaded paper in the front tray and close the front cover. Keep "
 "the document cover open.\n"
@@ -2695,32 +2705,32 @@ msgstr ""
 
 #. ID_STS_MESSAGE_INK_BLACK0
 #. ID_STS_MESSAGE_INK_BLACK1
-#: src/bjcupsmon_ui.c:757 src/bjcupsmon_ui.c:759
+#: src/bjcupsmon_ui.c:761 src/bjcupsmon_ui.c:763
 msgid " Black"
 msgstr " Svart"
 
 #. ID_STS_MESSAGE_INK_MAGENTA0
-#: src/bjcupsmon_ui.c:761
+#: src/bjcupsmon_ui.c:765
 msgid " Magenta"
 msgstr " Magenta"
 
 #. ID_STS_MESSAGE_INK_YELLOW0
-#: src/bjcupsmon_ui.c:763
+#: src/bjcupsmon_ui.c:767
 msgid " Yellow"
 msgstr " Gul"
 
 #. ID_STS_MESSAGE_INK_CYAN0
-#: src/bjcupsmon_ui.c:765
+#: src/bjcupsmon_ui.c:769
 msgid " Cyan"
 msgstr " Cyan"
 
 #. ID_STS_MESSAGE_INK_GLAY0
-#: src/bjcupsmon_ui.c:767
+#: src/bjcupsmon_ui.c:771
 msgid " Gray"
 msgstr " Grå"
 
 #. ID_STS_MESSAGE_SC_SERVICE_ERROR_CARRIAGEPOS
-#: src/bjcupsmon_ui.c:769
+#: src/bjcupsmon_ui.c:773
 msgid ""
 "A printer error has occurred.\n"
 "Turn the printer off. Then check that there are no foreign objects in the "
@@ -2737,22 +2747,22 @@ msgstr ""
 "Hvis dette ikke retter feilen, må skriveren repareres. Se brukerhåndboken og kontakt servicesenteret.\n"
 
 #. ID_STS_MESSAGE_OC_FITPAPER_CASSETUP
-#: src/bjcupsmon_ui.c:771
+#: src/bjcupsmon_ui.c:775
 msgid "Fit paper into the cassette (upper).\n"
 msgstr "Plasser papiret i kassett (øvre).\n"
 
 #. ID_STS_MESSAGE_OC_FITPAPER_CASSETLOWER
-#: src/bjcupsmon_ui.c:773
+#: src/bjcupsmon_ui.c:777
 msgid "Fit paper into the cassette (lower).\n"
 msgstr "Plasser papiret i kassett (nedre).\n"
 
 #. ID_STS_MESSAGE_SMMSG_TAP
-#: src/bjcupsmon_ui.c:775
+#: src/bjcupsmon_ui.c:779
 msgid "Tap [OK] on the printer.\n"
 msgstr "Tapp [OK] på skriveren.\n"
 
 #. ID_STS_MESSAGE_OC_USERSIZE_RESUME
-#: src/bjcupsmon_ui.c:777
+#: src/bjcupsmon_ui.c:781
 msgid ""
 "Cannot print with the specified paper size.\n"
 "Press the RESUME button on the printer to cancel printing. Then, change the "
@@ -2764,7 +2774,7 @@ msgstr ""
 "Se brukerhåndboken for riktig papirstørrelsesinnstilling.\n"
 
 #. ID_STS_MESSAGE_OC_USERSIZE_STOP
-#: src/bjcupsmon_ui.c:779
+#: src/bjcupsmon_ui.c:783
 msgid ""
 "Cannot print with the specified paper size.\n"
 "Press the printer's Stop button on the printer to cancel printing. Then, "
@@ -2776,7 +2786,7 @@ msgstr ""
 "Se brukerhåndboken for riktig papirstørrelsesinnstilling.\n"
 
 #. ID_STS_MESSAGE_OC_USERSIZE_STOP_TOUCH
-#: src/bjcupsmon_ui.c:781
+#: src/bjcupsmon_ui.c:785
 msgid ""
 "Cannot print with the specified paper size.\n"
 "Touch the printer's Stop button on the printer to cancel printing. Then, "
@@ -2788,7 +2798,7 @@ msgstr ""
 "Se brukerhåndboken for riktig papirstørrelsesinnstilling.\n"
 
 #. ID_STS_MESSAGE_OC_EJECTCOVERCLOSE12_1_BTN
-#: src/bjcupsmon_ui.c:783
+#: src/bjcupsmon_ui.c:787
 msgid ""
 "Check that there are no objects in front of the printer and that the "
 "cassette (upper) is fully inserted, and then press the open button on the "
@@ -2796,14 +2806,14 @@ msgid ""
 msgstr "Kontroller at det ikke er noen gjenstander foran skriveren og at kassett (øvre) er helt satt inn og deretter trykker du åpne-knappen på skriveren for å åpne papirutmatingsbrettet.\n"
 
 #. ID_STS_MESSAGE_OC_EJECTCOVERCLOSE12_1
-#: src/bjcupsmon_ui.c:785
+#: src/bjcupsmon_ui.c:789
 msgid ""
 "Check that there are no objects in front of the printer and that the "
 "cassette (upper) is fully inserted, and then open the paper output tray.\n"
 msgstr "Kontroller at det ikke er noen gjenstander foran skriveren og at kassett (øvre) er helt satt inn og deretter åpner du papirutmatingsbrettet.\n"
 
 #. ID_STS_MESSAGE_OC_PAPER_JAM_BACK12_1
-#: src/bjcupsmon_ui.c:787
+#: src/bjcupsmon_ui.c:791
 msgid ""
 "Detach the rear cover.\n"
 "Open the paper output tray if it is closed.\n"
@@ -2812,7 +2822,7 @@ msgstr ""
 "Åpne papirutmatingsbrettet hvis det er lukket.\n"
 
 #. ID_STS_MESSAGE_OC_PAPER_JAM_BACK12_1_2
-#: src/bjcupsmon_ui.c:789
+#: src/bjcupsmon_ui.c:793
 msgid ""
 "Detach the rear cover, and then detach the transport unit cover inside.\n"
 "Open the paper output tray if it is closed.\n"
@@ -2821,7 +2831,7 @@ msgstr ""
 "Åpne papirutmatingsbrettet hvis det er lukket.\n"
 
 #. ID_STS_MESSAGE_OC_PAPER_JAM_BACK12_2
-#: src/bjcupsmon_ui.c:791
+#: src/bjcupsmon_ui.c:795
 msgid ""
 "Remove the jammed paper from inside the transport unit.\n"
 "If the paper cannot be removed, refer to the user's guide to remove it.\n"
@@ -2831,12 +2841,12 @@ msgstr ""
 
 #. ID_STS_MESSAGE_OC_PAPER_JAM2_3rd_TAP
 #. ID_STS_MESSAGE_CDR_GUIDE_PRINT_3rd_TAP
-#: src/bjcupsmon_ui.c:793 src/bjcupsmon_ui.c:811
+#: src/bjcupsmon_ui.c:797 src/bjcupsmon_ui.c:815
 msgid "Tap [OK] on the printer. Printing resumes from the next paper.\n"
 msgstr "Tapp [OK] på skriveren. Utskriften fortsetter fra det neste arket.\n"
 
 #. ID_STS_MESSAGE_BUSY_HEADCHANGING
-#: src/bjcupsmon_ui.c:795
+#: src/bjcupsmon_ui.c:799
 msgid ""
 "The print head holder has moved to the head replacement position.\n"
 "\n"
@@ -2845,7 +2855,7 @@ msgstr ""
 "\n"
 
 #. ID_STS_MESSAGE_OC_COVER_OPEN3
-#: src/bjcupsmon_ui.c:797
+#: src/bjcupsmon_ui.c:801
 msgid ""
 "The printer's cover is open.\n"
 "If printing is in progress, the ink tank cannot be replaced. Close the "
@@ -2858,7 +2868,7 @@ msgstr ""
 "\n"
 
 #. ID_STS_MESSAGE_SC_SERVICE_ERROR_CARRIAGEPOS_DISPO
-#: src/bjcupsmon_ui.c:799
+#: src/bjcupsmon_ui.c:803
 msgid ""
 "A printer error has occurred.\n"
 "Turn the printer off. Then check that there are no foreign objects in the "
@@ -2875,7 +2885,7 @@ msgstr ""
 "Hvis dette ikke retter feilen, må skriveren repareres. Se brukerhåndboken og kontakt servicesenteret.\n"
 
 #. ID_STS_MESSAGE_OC_INKOUT06_TANK_TAP
-#: src/bjcupsmon_ui.c:801
+#: src/bjcupsmon_ui.c:805
 msgid ""
 "\n"
 "Replacing the ink tank is recommended.\n"
@@ -2889,7 +2899,7 @@ msgstr ""
 "Hvis utskrift pågår og du vil fortsette utskriften, tapper du [OK] på skriveren. Deretter kan utskriften fortsette. Det anbefales at du bytter ut blekktanken etter utskriften. Skriveren kan bli skadet dersom utskriften fortsettes når det er tomt for blekk.\n"
 
 #. ID_STS_MESSAGE_OC_USEDTANK_ALMOST_TAP
-#: src/bjcupsmon_ui.c:803
+#: src/bjcupsmon_ui.c:807
 msgid ""
 "The ink absorber is almost full.\n"
 "Tap [OK] on the printer to continue printing.\n"
@@ -2900,7 +2910,7 @@ msgstr ""
 "Kontakt servicesenteret.\n"
 
 #. ID_STS_MESSAGE_OC_USEDTANK_ALMOSTJP_TAP
-#: src/bjcupsmon_ui.c:805
+#: src/bjcupsmon_ui.c:809
 msgid ""
 "The ink absorber is almost full.\n"
 "Tap [OK] on the printer to continue printing.\n"
@@ -2915,7 +2925,7 @@ msgstr ""
 "Blekkbeholderen kan bare byttes av en kvalifisert tekniker.\n"
 
 #. ID_STS_MESSAGE_OC_DUPLEX_STOPPAGE2_TAP
-#: src/bjcupsmon_ui.c:807
+#: src/bjcupsmon_ui.c:811
 msgid ""
 "Duplex printing cannot be continued because the size of the paper loaded in "
 "the printer is not supported by the duplex printing function or a paper size "
@@ -2925,7 +2935,7 @@ msgid ""
 msgstr "Dupleksutskrift kan ikke fortsettes, fordi størrelsen på papiret som ligger i skriveren, ikke støttes av funksjonen for dupleksutskrift, eller fordi det er angitt en papirstørrelse som ikke tillater dupleksutskrift. Legg papir med riktig størrelse i skriveren, kontroller innstillingen for papirstørrelse og tapp [OK] på skriveren.\n"
 
 #. ID_STS_MESSAGE_OC_HEADALIGNMENT_TAP
-#: src/bjcupsmon_ui.c:809
+#: src/bjcupsmon_ui.c:813
 msgid ""
 "An error occurred during automatic print head alignment.\n"
 "\n"
@@ -2946,38 +2956,38 @@ msgstr ""
 "Tapp [OK] på skriveren for å rette feilen.\n"
 
 #. ID_OTHER_MESSAGE_PRINTER_IS_READY
-#: src/bjcupsmon_ui.c:819
+#: src/bjcupsmon_ui.c:823
 msgid "Ready.\n"
 msgstr "Klar.\n"
 
 #. ID_OTHER_MESSAGE_UNKNOWN_PRINTER
-#: src/bjcupsmon_ui.c:821
+#: src/bjcupsmon_ui.c:825
 msgid "Unknown printer.\n"
 msgstr "Ukjent skriver.\n"
 
 #. ID_OTHER_MESSAGE_SPOOLER_ERROR
-#: src/bjcupsmon_ui.c:823
+#: src/bjcupsmon_ui.c:827
 msgid "Spooler error.\n"
 msgstr "Spolingsfeil.\n"
 
 #. ID_OTHER_MESSAGE_NO_RESPONSE
 #. ID_OTHER_MESSAGE_USB_BACKEND_NORMAL
-#: src/bjcupsmon_ui.c:825 src/bjcupsmon_ui.c:839
+#: src/bjcupsmon_ui.c:829 src/bjcupsmon_ui.c:843
 msgid "Printer not responding.\n"
 msgstr "Skriveren svarer ikke.\n"
 
 #. ID_OTHER_MESSAGE_COLLECTING_STATUS
-#: src/bjcupsmon_ui.c:827
+#: src/bjcupsmon_ui.c:831
 msgid "Collecting printer status.\n"
 msgstr "Henter skriverstatus.\n"
 
 #. ID_OTHER_MESSAGE_SLEEP
-#: src/bjcupsmon_ui.c:829
+#: src/bjcupsmon_ui.c:833
 msgid "Printer is standing by.\n"
 msgstr "Skriveren er i hvilemodus.\n"
 
 #. ID_OTHER_MESSAGE_FIRMUP
-#: src/bjcupsmon_ui.c:833
+#: src/bjcupsmon_ui.c:837
 msgid ""
 "The printer is updating the firmware.\n"
 "Turn the printer off and then on again.\n"
@@ -2988,7 +2998,7 @@ msgstr ""
 "Hvis denne meldingen vises igjen, må du oppdatere fastvaren en gang til.\n"
 
 #. ID_OTHER_MESSAGE_OFFLINE
-#: src/bjcupsmon_ui.c:837
+#: src/bjcupsmon_ui.c:841
 msgid ""
 "The printer is offline.\n"
 "Check that the printer cable is connected and the printer power is on.\n"
@@ -3001,20 +3011,20 @@ msgstr ""
 #. Pointer to array of message ID.
 #. Counter.
 #. ID_STS_MESSAGE_COLOR
-#: src/bjcupsmon_ui.c:870
+#: src/bjcupsmon_ui.c:874
 msgid "COLOR[AA-123]\n"
 msgstr ""
 
 #. ID_STS_MESSAGE_UNKNOWN_COLOR
-#: src/bjcupsmon_ui.c:872
+#: src/bjcupsmon_ui.c:876
 msgid "COLOR\n"
 msgstr "COLOR\n"
 
-#: src/bjcupsmon_ui.c:1173
+#: src/bjcupsmon_ui.c:1177
 msgid "Up"
 msgstr ""
 
-#: src/bjcupsmon_ui.c:1178
+#: src/bjcupsmon_ui.c:1182
 msgid "Down"
 msgstr ""
 

@@ -1,6 +1,6 @@
 /*
  *  Canon Inkjet Printer Driver for Linux
- *  Copyright CANON INC. 2001-2012
+ *  Copyright CANON INC. 2001-2013
  *  All Rights Reserved.
  *
  *  This program is free software; you can redistribute it and/or modify
@@ -319,6 +319,19 @@ ST_MSGTBL cartridge_type3_ChinaLCPP2[]={
 
 
 static const
+ST_MSGTBL cartridge_type3_LCPP3[]={
+  {'U', ID_STS_MESSAGE_INK_BLACK},
+  {'V', ID_STS_MESSAGE_INK_COLOR},
+  {'L', ID_STS_MESSAGE_INK_BLACK},
+  {'M', ID_STS_MESSAGE_INK_COLOR},
+  {'N', ID_STS_MESSAGE_INK_BLACK},
+  {'O', ID_STS_MESSAGE_INK_COLOR94},
+  {']', ID_STS_MESSAGE_INK_BLACK84},
+  {ENDTAG, 0}
+};
+
+
+static const
 ST_REGION_TBL cartridge_type3_region_tbl[]={
   {'0', cartridge_type3_0},
   {'1', cartridge_type3_SouthAmerica},
@@ -332,6 +345,7 @@ ST_REGION_TBL cartridge_type3_region_tbl[]={
   {'E', cartridge_type3_Oceania},
   {'F', cartridge_type3_ChinaLCPP2},
   {'G', cartridge_type3_LCPP},
+  {'H', cartridge_type3_LCPP3},
   {ENDTAG, 0}
 };
 

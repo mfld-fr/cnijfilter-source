@@ -1,6 +1,6 @@
 /*
  *  Canon Inkjet Printer Driver for Linux
- *  Copyright CANON INC. 2001-2012
+ *  Copyright CANON INC. 2001-2013
  *  All Rights Reserved.
  *
  *  This program is free software; you can redistribute it and/or modify
@@ -551,6 +551,8 @@ PRIVATE const gchar	*gSTSMessageTable[] = {
 	N_(" Color <CL-841>\n"),
 	/* ID_STS_MESSAGE_INK_COLOR93 */
 	N_(" Color <CL-93>\n"),
+	/* ID_STS_MESSAGE_INK_COLOR94 */
+	N_(" Color <CL-94>\n"),
 	/* ID_STS_MESSAGE_INK_COLOR98 */
 	N_(" Color <CL-98>\n"),
 	/* ID_STS_MESSAGE_INK_BLACK140XXL */
@@ -593,6 +595,8 @@ PRIVATE const gchar	*gSTSMessageTable[] = {
 	N_(" Black <PG-840>\n"),
 	/* ID_STS_MESSAGE_INK_BLACK83 */
 	N_(" Black <PG-83>\n"),
+	/* ID_STS_MESSAGE_INK_BLACK84 */
+	N_(" Black <PG-84>\n"),
 	/* ID_STS_MESSAGE_INK_BLACK88 */
 	N_(" Black <PG-88>\n"),
 	/* ID_STS_MESSAGE_PREPARE */
@@ -840,7 +844,7 @@ PRIVATE const gchar	*gOtherMessageTable[] = {
 	/* ID_OTHER_MESSAGE_FATAL_ERROR */
 	"\n  cngpijmon : fatal error occured.\n",
 	/* ID_OTHER_MESSAGE_ARGUMENT_ERROR */
-	"  cngpijmon(3.00.01.011) : argument error.\n  Usage: cngpijmon****** [printer name]\n\n   ex) cngpijmonmg6300 MG6300\n\n",
+	"  cngpijmon(3.00.02.004) : argument error.\n  Usage: cngpijmon****** [printer name]\n\n   ex) cngpijmonmg6300 MG6300\n\n",
 };
 
 

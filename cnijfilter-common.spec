@@ -3,7 +3,7 @@
 %bcond_with build_common_package
 
 %define VERSION 3.80
-%define RELEASE 1
+%define RELEASE 2
 
 %define _arc  %(getconf LONG_BIT)
 %define _is64 %(if [ `getconf LONG_BIT` = "64" ] ; then  printf "64";  fi)
