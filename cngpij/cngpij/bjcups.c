@@ -66,27 +66,6 @@
 
 char* g_printer_name = NULL;
 
-#if (CUPS_VERSION_MAJOR > 1) || (CUPS_VERSION_MINOR > 5)
-#define HAVE_CUPS_1_6 1
-#endif
-
-#ifndef HAVE_CUPS_1_6
-
-#define ippSetOperation(ipp_request, ipp_op_id) ipp_request->request.op.operation_id = ipp_op_id
-#define ippSetRequestId(ipp_request, ipp_rq_id) ipp_request->request.op.request_id = ipp_rq_id
-#define ippGetStatusCode(ipp_request) ipp_request->request.status.status_code
-#define ippFirstAttribute(ipp) ipp->attrs /* simplistic */
-#define bjcups_ippNextAttribute(resp, attr) attr->next
-#define ippGetGroupTag(attr)  attr->group_tag
-#define ippGetName(attr) attr->name
-#define ippGetString(attr, ind, lang) attr->values[ind].string.text
-#define ippGetValueTag(attr) attr->value_tag
-
-#else
-
-#define bjcups_ippNextAttribute(resp, attr) ippNextAttribute(resp)
-
-#endif
 
 extern int GetIPCData(LPIPCU pipc, char *sname);
 static short getDeviceURI( const char *pDestName, char *pDeviceURI, short bufSize);
@@ -706,8 +685,8 @@ static short getDeviceURI( const char *pDestName, char *pDeviceURI, short bufSiz
 					*pResponse;					// Pointer to CUPS IPP response.
 	ipp_attribute_t	*pAttribute;				// Pointer to CUPS attributes.
 	cups_lang_t		*pLanguage;					// Pointer to language.
-	char			*pPrinter = NULL;			// Pointer to printer name.
-	char			*pDUri = NULL;				// Pointer to Device uri.
+	const char		*pPrinter = NULL;			// Pointer to printer name.
+	const char		*pDUri = NULL;				// Pointer to Device uri.
 	short			retVal = -1;	// Return value.
 /*** Parameters end ***/
 	
@@ -738,7 +717,7 @@ static short getDeviceURI( const char *pDestName, char *pDeviceURI, short bufSiz
 
 				while (pAttribute != NULL) {
 					while (pAttribute != NULL && ippGetGroupTag(pAttribute) != IPP_TAG_PRINTER) {
-						pAttribute = bjcups_ippNextAttribute(pResponse, pAttribute);
+						pAttribute = ippNextAttribute(pResponse);
 					}
 					if (pAttribute == NULL) {
 						break;
@@ -751,7 +730,7 @@ static short getDeviceURI( const char *pDestName, char *pDeviceURI, short bufSiz
 						if (strcmp(ippGetName(pAttribute), "device-uri") == 0 && ippGetValueTag(pAttribute) == IPP_TAG_URI) {
 							pDUri = ippGetString(pAttribute, 0, NULL);
 						}
-						pAttribute = bjcups_ippNextAttribute(pResponse, pAttribute);
+						pAttribute = ippNextAttribute(pResponse);
 					}
 
 					if (strcasecmp(pDestName, pPrinter) == 0) {
@@ -760,7 +739,7 @@ static short getDeviceURI( const char *pDestName, char *pDeviceURI, short bufSiz
 					}
 					
 					if (pAttribute != NULL)
-						pAttribute = bjcups_ippNextAttribute(pResponse, pAttribute);
+						pAttribute = ippNextAttribute(pResponse);
 				}
 			}
 			

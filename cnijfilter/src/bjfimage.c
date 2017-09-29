@@ -39,6 +39,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
 #include <png.h>
 
 #include "cpktypes.h"
@@ -1585,7 +1587,7 @@ static short png_image_init( LPBJF_IMAGEINFO lpbjfimage )
 
 	png_read_info( png_p, info_p );
 
-	png_get_IHDR( png_p, info_p, (unsigned long *)&width, (unsigned long *)&length, &bit_depth,
+	png_get_IHDR( png_p, info_p, &width, &length, &bit_depth,
 	              &color_type, &interlace_type, NULL, NULL);
 
 	/* not support Interlace */

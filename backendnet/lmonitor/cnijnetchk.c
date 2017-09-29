@@ -328,14 +328,12 @@ static int getPrinterStatus(CNNLHANDLE hnd, char *buf, unsigned long size){
 static int getStatusCode(const char *src, const char *key, const char *val, const int index){
 	int i, j, start=-1;
 	int len = 0, keylen=0;
-	unsigned long bufsize=0; 
 	char result[1024];
 	char tmp[1024], *buf=NULL;
 	
 	if (src==NULL) return CNNL_RET_FAILURE;
 	if (key==NULL) return CNNL_RET_FAILURE;
 	
-	bufsize = (src[0] << 8) + src[1]; 
 	buf = (char*)&(src[2]);
 
 	len = strlen(buf);
