@@ -420,7 +420,7 @@ PRIVATE gint getJobID(gchar *pDestName, gchar *pURI, gchar *pServerName, gint *p
 	cups_lang_t		*pLanguage;								// Pointer to language.
 	ipp_jstate_t	jobState = 0;							// Job state.
 	gint			jobID = 0;								// Job ID.
-	gchar			*pJobUserName = NULL;					// User name of print job.
+	const gchar			*pJobUserName = NULL;					// User name of print job.
 	uid_t			userID;									// User ID.
 	struct passwd	*pPasswd;								// Pointer to password structure.
 	gint			retVal = ID_ERR_PRINT_JOB_NOT_EXIST;	// Return value.
