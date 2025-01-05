@@ -42,6 +42,8 @@
 #include <string.h>
 #include <ctype.h>
 #include <png.h>
+#include <unistd.h>
+#include <stdint.h>
 
 #include "cpktypes.h"
 #include "cncl.h"
@@ -419,15 +421,15 @@ onErr:
 static short tiff_image_init( LPBJF_IMAGEINFO lpbjfimage )
 {
 	TIFF				*tif = NULL;
-	uint32				width = 0;
-	uint32				length = 0;
+	uint32_t			width = 0;
+	uint32_t			length = 0;
 	unsigned short		bpp = 1;
 	unsigned short		photometric = PHOTOMETRIC_RGB;
 	float				x_resolution = 0;
 	float				y_resolution = 0;
 	short				outputtype;
-	uint16				config;
-	uint16				compress;
+	uint16_t			config;
+	uint16_t			compress;
 	short				result = -1;
 	static short		flg = 0;
 	short				resolution_unit = RESUNIT_INCH;

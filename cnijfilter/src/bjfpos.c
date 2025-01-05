@@ -39,13 +39,11 @@
 void bjf_pos_img_init( LPBJF_POS_IMGINFO );
 void bjf_pos_prn_init( LPBJF_POS_PRNINFO );
 void bjf_pos_init( LPBJF_POSINFO );
-void bjf_margin_init( LPBJF_MARGIN_INFO );
 short bjf_pos_imageresolution( LPBJF_POS_IMGINFO, LPBJF_POS_PRNINFO, LPBJF_POSINFO );
 short bjf_pos_imageresolution_fit( LPBJF_POS_IMGINFO, LPBJF_POS_PRNINFO, LPBJF_POSINFO );
 short bjf_pos_imageresolution_center( LPBJF_POS_IMGINFO, LPBJF_POS_PRNINFO, LPBJF_POSINFO );
 short bjf_pos_set_paperwidth( LPBJF_MARGIN_INFO , long );
 short bjf_pos_set_paperlength( LPBJF_MARGIN_INFO , long );
-short SetExtLevel( LPBJF_MARGIN_INFO, short);
 short SetExtMargin(LPBJF_POS_PRNINFO, LPBJF_POSINFO, LPBJF_MARGIN_INFO, LPBJFLTOVERMARGININFO);
 short SetBbox(LPBJF_OPTINFO , LPBJF_POS_IMGINFO , LPBJF_POSINFO , LPBJF_MARGIN_INFO , int , int);
 short ImageFitShort( LPBJF_POS_IMGINFO, LPBJF_POS_PRNINFO, LPBJF_POSINFO,LPBJF_MARGIN_INFO  );
